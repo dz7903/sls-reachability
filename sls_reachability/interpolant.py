@@ -1,7 +1,7 @@
 # Class describing an interpolant
 
-import lia_star_solver
-import statistics
+from . import lia_star_solver
+from . import statistics
 import copy
 import time
 from z3 import *

@@ -1,11 +1,11 @@
 #!/usr/bin/env python3
 
 import argparse
-import semilinear
-import interpolant
-import statistics
+from . import semilinear
+from . import interpolant
+from . import statistics
 import time
-import dsl
+from . import dsl
 
 from z3 import *
 

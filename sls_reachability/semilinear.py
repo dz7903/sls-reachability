@@ -1,7 +1,7 @@
 # Classes for linear and semi-linear sets
 
-import lia_star_solver
-import statistics
+from . import lia_star_solver
+from . import statistics
 import itertools
 import time
 from z3 import *

@@ -1,7 +1,7 @@
 from setuptools import setup, find_packages
 
 setup(
-    name="sls_reachability",
+    name="sls-reachability",
     packages=find_packages(),
     install_requires=[
         "z3-solver"

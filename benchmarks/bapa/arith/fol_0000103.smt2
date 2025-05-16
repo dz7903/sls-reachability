@@ -1,5 +1,6 @@
-(set-logic ALL_SUPPORTED)
+(set-logic ALL)
 (set-info :status unsat)
+(declare-fun card ((Set Int)) Int)
 
 ; forall b_ei:B. forall a_eh:A. 2b_ei + 2a_eh + |~f| - 4n >= n - t or n - t <= 0
 

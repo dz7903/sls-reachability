@@ -1,5 +1,6 @@
-(set-logic ALL_SUPPORTED)
+(set-logic ALL)
 (set-info :status unsat)
+(declare-fun card ((Set Int)) Int)
 
 ; forall c_co:C. forall b_cn:B. c_co + b_cn + |~f| - 2n >= (n + 3t + 1) / 2 or (n + 3t + 1) / 2 <= 0
 

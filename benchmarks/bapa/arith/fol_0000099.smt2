@@ -1,5 +1,6 @@
-(set-logic ALL_SUPPORTED)
+(set-logic ALL)
 (set-info :status unsat)
+(declare-fun card ((Set Int)) Int)
 
 ; forall b_dy:B. forall a_dx:A. 3b_dy + 2a_dx + |~f| - 5n >= 1 or 1 <= 0
 

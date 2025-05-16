@@ -1,5 +1,6 @@
-(set-logic ALL_SUPPORTED)
+(set-logic ALL)
 (set-info :status unsat)
+(declare-fun card ((Set Int)) Int)
 
 ; forall a_fi:A. 3a_fi + |UNIVERALSET| - 3n >= 1 or 1 <= 0
 

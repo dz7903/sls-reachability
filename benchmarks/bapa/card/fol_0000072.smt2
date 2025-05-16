@@ -1,5 +1,6 @@
-(set-logic ALL_SUPPORTED)
+(set-logic ALL)
 (set-info :status unsat)
+(declare-fun card ((Set Int)) Int)
 
 ; forall c_cn:C. forall c_cm:C. forall b_cl:B. nonempty(c_cn & c_cm & b_cl & ~f)
 

@@ -1,5 +1,6 @@
-(set-logic ALL_SUPPORTED)
+(set-logic ALL)
 (set-info :status unsat)
+(declare-fun card ((Set Int)) Int)
 
 ; forall nonempty_s:nonempty. nonempty_s + |UNIVERALSET| - n >= n or n <= 0
 

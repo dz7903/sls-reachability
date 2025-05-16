@@ -1,5 +1,6 @@
-(set-logic ALL_SUPPORTED)
+(set-logic ALL)
 (set-info :status unsat)
+(declare-fun card ((Set Int)) Int)
 
 ; forall b_bn:B. forall a_bm:A. b_bn + 2a_bm + |UNIVERALSET| - 3n >= (n - t + 1) / 2 or (n - t + 1) / 2 <= 0
 

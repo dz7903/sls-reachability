@@ -1,5 +1,6 @@
-(set-logic ALL_SUPPORTED)
+(set-logic ALL)
 (set-info :status unsat)
+(declare-fun card ((Set Int)) Int)
 
 ; forall b_bq:B. forall a_bp:A. forall a_bo:A. C(b_bq & a_bp & a_bo)
 
